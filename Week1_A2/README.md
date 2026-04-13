@@ -11,7 +11,6 @@ Present the findings in a 5-slide presentation (3-minute delivery).
 - **Python**:  main scripting language
 - **Pandas**: data loading, grouping, and aggregation
 - **Matplotlib**:  data visualisation / chart generation
-- **python-pptx**:  PowerPoint slide creation
 
 ---
 
