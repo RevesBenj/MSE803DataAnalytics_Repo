@@ -77,7 +77,7 @@ plt.show()
 
 ---
 
-# 🧠 6. Explanation (Simple)
+# 🧠 6. Explanation
 
 r = 0.88 means strong positive relationship  
 
