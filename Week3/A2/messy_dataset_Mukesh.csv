@@ -1,0 +1,11 @@
+ID,Name,Age,Country,Salary,Join Date
+1,Alice,25,NZ,55000,15/01/2020
+2,Bob,,NZ,60000,20/02/2020
+2,Bob,30,NZ,,20/02/2020
+4,Charlie,35,AUS,72000,
+5,David,thirty-eight,NZ,68000,1/11/2019
+,Eve,29,AU,59000,2019-13-01
+7,,40,NZ,sixty five thousand,30/05/2018
+8,Grace,22,,64000,25/07/2021
+9,Heidi,,AUS,,25/07/2021
+10,Ivan,27,NZ,58000,15/03/2019
