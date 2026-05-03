@@ -260,33 +260,6 @@ The raw data appear on screen with all problem visible: NaN (empty), text number
 The null count show how many empty in each column:
 Age empty = 2, Salary empty = 2, Name empty = 1, Country empty = 1, ID empty = 1.
 
----
-
-### Screenshot 2: DataCleaner: Clean Data Appear
-
-![Cleaned Data Terminal Output](charts/screenshot2_cleaned.png)
-
-After clean, the data look proper: 9 row, all value present, no text number,
-no broken date. Second Bob was remove. "thirty-eight" become 38. "sixty five thousand" become 65000.
-
----
-
-### Screenshot 3: Pearson + Outlier Result
-
-![Correlation and Outlier Terminal Output](charts/screenshot3_correlation.png)
-
-Pearson r = 0.6364 appear in orange colour (important number!).
-IQR fence for Age = [15.0, 47.0] and Salary = [50,000, 74,000].
-Both show empty list `[]`: nobody is outlier. Z-score also confirm: 0 outlier found.
-
----
-
-### Screenshot 4: Pipeline Finish! All Chart Save
-
-![Pipeline Complete Terminal Output](charts/screenshot4_pipeline_complete.png)
-
-Final summary show: 10 raw row, 9 clean row, Pearson r value, and list of 5 chart file
-that was save to the charts folder. Green text mean everything go well!
 
 ---
 
