@@ -202,6 +202,8 @@ View the interactive Power BI dashboard using the link below:
 [Retail Sales Power BI Dashboard](https://app.powerbi.com/reportEmbed?reportId=05006864-868d-497a-9cb8-7fe51607a4c8)
 
 
+![alt text](image.png)
+
 
 ## 1. KPI Cards
 
