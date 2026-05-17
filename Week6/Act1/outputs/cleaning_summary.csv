@@ -1,0 +1,6 @@
+Column,Missing_Values,Data_Type
+SepalLengthCm,0,float64
+SepalWidthCm,0,float64
+PetalLengthCm,0,float64
+PetalWidthCm,0,float64
+Species,0,object
