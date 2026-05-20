@@ -1,0 +1,27 @@
+Traditional Machine Learning Model: Support Vector Machine (SVM)
+Dataset: Wine Dataset
+Kernel: Linear
+Train/Test Split: 80% training, 20% testing
+Testing Samples: 36
+
+Evaluation Metrics on Testing Dataset:
+Accuracy : 0.9444
+Precision: 0.9466
+Recall   : 0.9444
+F1-score : 0.9443
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.92      1.00      0.96        12
+           2       0.93      0.93      0.93        14
+           3       1.00      0.90      0.95        10
+
+    accuracy                           0.94        36
+   macro avg       0.95      0.94      0.95        36
+weighted avg       0.95      0.94      0.94        36
+
+Confusion Matrix:
+[[12  0  0]
+ [ 1 13  0]
+ [ 0  1  9]]

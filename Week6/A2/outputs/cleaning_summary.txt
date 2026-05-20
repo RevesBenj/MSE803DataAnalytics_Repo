@@ -1,0 +1,5 @@
+rows_after_cleaning: 178
+columns: 14
+missing_values_removed: 0
+duplicate_rows_removed: 0
+class_distribution: {1: 59, 2: 71, 3: 48}
