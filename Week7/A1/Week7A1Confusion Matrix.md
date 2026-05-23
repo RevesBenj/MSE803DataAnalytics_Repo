@@ -45,7 +45,7 @@ Results:
 
 ---
 
-## 5. Explanation (Simple Terms)
+## 5. Explanation
 
 - **True Positive (TP = 13)**  
   Sick patients correctly identified as sick  
