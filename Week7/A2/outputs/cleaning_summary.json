@@ -1,0 +1,10 @@
+{
+    "original_rows": 284807,
+    "original_columns": 31,
+    "missing_values_before": {},
+    "duplicates_removed": 1081,
+    "missing_values_after": {},
+    "final_rows": 283726,
+    "final_columns": 31,
+    "cleaned_staging_dataset": "outputs\\staging\\creditcard_cleaned_staging.csv"
+}
