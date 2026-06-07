@@ -1,0 +1,8 @@
+Original rows: 200
+Original columns: 8
+Duplicate rows removed: 0
+Invalid / inconsistent rows removed: 1
+Reason: values outside logical ranges, example negative workout/session values.
+Rows after cleaning: 199
+No missing values found after cleaning.
+Data types were corrected for numeric columns and text columns were standardized.

@@ -1,0 +1,5 @@
+Cluster,Age,Workouts_per_Week,Avg_Session_Duration_Min,Steps_per_Day,User_Count,Churn_Rate,Most_Common_Gender,Most_Common_Subscription,Insight
+0,32.84,2.13,46.97,4700.42,62,0.29,Female,Free,Moderate / mixed activity users; medium churn risk.
+1,46.21,1.21,39.57,11252.31,52,0.1,Female,Free,Moderate / mixed activity users; low churn risk.
+2,28.48,4.65,52.31,11209.71,48,0.06,Female,Free,Highly active users; low churn risk.
+3,51.38,4.97,35.36,8065.43,37,0.05,Male,Free,Moderate / mixed activity users; low churn risk.
