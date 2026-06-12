@@ -1,0 +1,6 @@
+Species,n_records,total_fish,mean_count,mean_size,min_count,max_count
+Brown Trout,19,234,12.316,17.942,3,22
+Inanga,24,472,19.667,7.638,3,30
+Longfin Eel,15,120,8.0,42.693,3,19
+Shortfin Eel,11,65,5.909,40.282,3,8
+Unknown,1,26,26.0,8.1,26,26

@@ -1,0 +1,2 @@
+Model,Target,Evaluation_Type,R2,MAE,RMSE,Features_Used
+Linear Regression,Fish_Count,Full cleaned dataset explanatory regression,0.0252,6.6344,7.5454,"Temperature_C, pH, Dissolved_Oxygen"

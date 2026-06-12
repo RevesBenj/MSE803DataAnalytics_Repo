@@ -1,0 +1,4 @@
+Site_ID,n_records,mean_temp,mean_pH,mean_DO,mean_fish_count,mean_fish_size,mean_WQI,mean_FHI
+AV-1,19,14.832,7.316,7.868,11.211,25.347,0.749,0.469
+AV-2,25,16.192,7.543,8.06,12.76,23.292,0.76,0.472
+AV-3,26,17.727,7.437,7.685,14.808,21.227,0.678,0.483

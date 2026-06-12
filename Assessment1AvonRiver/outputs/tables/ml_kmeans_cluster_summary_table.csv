@@ -1,0 +1,3 @@
+KMeans_Cluster,pH,Temperature_C,Dissolved_Oxygen,Turbidity,Nitrate,Phosphate,Fish_Count
+0,7.468,16.568,7.98,Not available in dataset,Not available in dataset,Not available in dataset,16.636
+1,7.398,16.096,7.681,Not available in dataset,Not available in dataset,Not available in dataset,7.115
