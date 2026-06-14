@@ -66,6 +66,10 @@ The script prints:
 for both Linear Regression and Polynomial Regression models.
 
 
+Actual Result: 
+![alt text](image.png)
+
+
 ### Linear Regression
 - MAE = 5200.45 means the predicted salary is off by about $5,200 on average.
 - RMSE = 6723.39 means the typical prediction error is about $6,723.
@@ -104,8 +108,7 @@ Overall, the best model is the one that provides:
 
 This model should be selected for future salary prediction tasks.
 
-Actual Reuslt: 
-![alt text](image.png)
+
 
 ## Author
 Benjelyn Reves Patiag
