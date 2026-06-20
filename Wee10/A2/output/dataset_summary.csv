@@ -1,0 +1,7 @@
+Metric,Value
+Rows,303
+Columns,14
+Duplicate rows after cleaning,0
+Missing values after cleaning,6
+No disease count,164
+Heart disease count,139
