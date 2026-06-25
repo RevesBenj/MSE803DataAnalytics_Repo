@@ -1,7 +1,0 @@
-Model,Target,Accuracy,Precision_Macro,Recall_Macro,F1_Macro,Confusion_Matrix_Labels,Confusion_Matrix,Features_Used
-Random Forest,Water_Quality_Category,0.8095238095238095,0.8412698412698413,0.8095238095238094,0.8134920634920636,"['High', 'Low', 'Medium']","[[6, 0, 1], [0, 5, 2], [1, 0, 6]]","Temperature_C, pH, Dissolved_Oxygen, Fish_Count, Avg_Size_cm"
-Decision Tree,Water_Quality_Category,0.8095238095238095,0.8412698412698413,0.8095238095238094,0.8134920634920636,"['High', 'Low', 'Medium']","[[6, 0, 1], [0, 5, 2], [1, 0, 6]]","Temperature_C, pH, Dissolved_Oxygen, Fish_Count, Avg_Size_cm"
-Gradient Boosting,Water_Quality_Category,0.8095238095238095,0.8412698412698413,0.8095238095238094,0.8134920634920636,"['High', 'Low', 'Medium']","[[6, 0, 1], [0, 5, 2], [1, 0, 6]]","Temperature_C, pH, Dissolved_Oxygen, Fish_Count, Avg_Size_cm"
-Logistic Regression,Water_Quality_Category,0.7619047619047619,0.7579365079365079,0.7619047619047619,0.7575091575091575,"['High', 'Low', 'Medium']","[[6, 0, 1], [0, 6, 1], [1, 2, 4]]","Temperature_C, pH, Dissolved_Oxygen, Fish_Count, Avg_Size_cm"
-SVM,Water_Quality_Category,0.7619047619047619,0.7579365079365079,0.7619047619047619,0.7575091575091575,"['High', 'Low', 'Medium']","[[6, 0, 1], [0, 6, 1], [1, 2, 4]]","Temperature_C, pH, Dissolved_Oxygen, Fish_Count, Avg_Size_cm"
-Neural Network / MLP,Water_Quality_Category,0.7619047619047619,0.7592592592592592,0.7619047619047619,0.7401515151515152,"['High', 'Low', 'Medium']","[[7, 0, 0], [0, 6, 1], [2, 2, 3]]","Temperature_C, pH, Dissolved_Oxygen, Fish_Count, Avg_Size_cm"
