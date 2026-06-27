@@ -1,0 +1,23 @@
+{
+  "raw_training_rows": 258,
+  "raw_test_rows": 145,
+  "clean_training_rows": 258,
+  "clean_test_rows": 145,
+  "total_clean_rows": 403,
+  "missing_values_after_cleaning": 0,
+  "duplicate_rows_after_cleaning": 0,
+  "best_classification_model": {
+    "model": "MLP Neural Network",
+    "accuracy": 0.9586206896551724,
+    "precision_weighted": 0.9588755511379565,
+    "recall_weighted": 0.9586206896551724,
+    "f1_weighted": 0.9584681561765211
+  },
+  "best_clustering_model": {
+    "method": "KMeans",
+    "k": 5,
+    "silhouette": 0.1827239603881878,
+    "adjusted_rand_index": 0.12183316941818294,
+    "normalized_mutual_info": 0.19234741142583608
+  }
+}

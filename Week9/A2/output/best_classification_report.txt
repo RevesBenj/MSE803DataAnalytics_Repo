@@ -1,0 +1,12 @@
+Best model: MLP Neural Network
+
+              precision    recall  f1-score   support
+
+        high       0.95      1.00      0.97        39
+         low       0.96      0.96      0.96        46
+      middle       0.94      0.91      0.93        34
+    very_low       1.00      0.96      0.98        26
+
+    accuracy                           0.96       145
+   macro avg       0.96      0.96      0.96       145
+weighted avg       0.96      0.96      0.96       145
