@@ -1,0 +1,22 @@
+Sheet,Raw_Rows,Raw_Columns,Parsed_Records
+1. Overall life satisfaction,256,33,1620
+2. Life worthwhile,256,33,1620
+3. Financial wellbeing,258,23,1080
+4. Standard of living,260,38,3024
+5. Standard of living cont.,256,23,1080
+6. Standard of living cont.2,256,28,1350
+7. Self-rated general health,256,23,1080
+8. Safety and security,260,28,2160
+9. Safety and security cont.,258,28,1350
+10. Loneliness,256,23,1080
+11. Generalised trust,257,28,1350
+12. Institutional trust(courts),257,28,1350
+13. Institutional trust(educat),257,28,1350
+14. Institutional trust(health),257,28,1350
+15. Institutional trust(media),259,28,1346
+16. Institutional trust(parl),258,28,1350
+17. Institutional trust(police),257,28,1350
+18. Culture and identity,259,23,1072
+19. Job satisfaction,261,23,1033
+20. Housing condition,258,18,810
+TOTAL,5152,,27248
