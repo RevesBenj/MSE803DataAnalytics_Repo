@@ -1,0 +1,5 @@
+approach,accuracy,precision,recall,f1,roc_auc
+Random Forest,0.75,0.5279,0.8703,0.6571,0.8784
+Logistic Regression,0.7577,0.5398,0.8111,0.6482,0.8555
+Decision Tree,0.7325,0.508,0.8953,0.6482,0.8673
+Baseline Majority Class,0.7248,0.0,0.0,0.0,0.5
