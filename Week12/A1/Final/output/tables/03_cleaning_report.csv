@@ -1,0 +1,7 @@
+cleaning_step,value
+Initial rows,119390
+Exact duplicates removed,31994
+Rows with zero guests removed,166
+Invalid/extreme ADR rows removed,2
+Invalid arrival dates removed,0
+Final clean rows,87228
