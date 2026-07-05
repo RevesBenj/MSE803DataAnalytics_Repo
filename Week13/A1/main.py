@@ -1,6 +1,6 @@
 """
 LLM-Powered CV Feedback and Optimization Backend
-YCCIA 2511 MSE PSE - CV Feedback Activity
+Benjelyn Reves Patiag
 
 Purpose:
 - Read a user's CV and a target job description from PDF, DOCX, or TXT.
