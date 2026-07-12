@@ -1,50 +1,60 @@
 # Ethical and Culturally Relevant Risk Management
 
-## Running App Data Analysis and Recommendation Feature
+## Running App Data Analysis Project with Recommendation Feature
 
-### 1. Purpose and Context
+### Purpose
 
-The Running App analyses users’ fitness activities and provides personalised recommendations. A major ethical risk happens when the app recommends intensive exercise to every user. Users have different ages, fitness levels, disabilities, health conditions, cultures, locations, and personal goals. Therefore, the recommendations must be safe, fair, explainable, and culturally respectful.
+The Running App analyses users' fitness data to provide personalised exercise recommendations. However, recommending the same intensive running program to all users may cause injuries, unfair outcomes, and loss of user trust. The system should therefore follow ethical principles, protect privacy, and respect cultural diversity throughout the data lifecycle.
 
-### 2. Main Ethical Risks
+## 1. Ethical Implications
 
-**Health and safety:** Unsuitable recommendations may cause injury, exhaustion, or worsen an existing health condition.
+The app should only collect data that is necessary for improving recommendations. Users must provide informed consent before their data is collected or analysed. Recommendations should be transparent, explainable, and should not replace professional medical advice. The system should avoid discrimination and provide fair recommendations for all users regardless of age, gender, ethnicity, disability, or fitness level.
 
-**Privacy:** GPS routes, heart rate, age, weight, running habits, and health details are sensitive information. Location data may also reveal a user’s home, workplace, or daily routine.
+## 2. Privacy Concerns and Risk Mitigation
 
-**Lack of informed consent:** Users may not clearly understand how their information is collected, analysed, stored, shared, or used by the recommendation model.
+The app collects sensitive information such as GPS location, heart rate, age, weight, and exercise history. These data may expose users to privacy risks if they are leaked or misused.
 
-**Bias and unfairness:** If the dataset mainly represents young, healthy, and highly active users, older people, beginners, people with disabilities, and other under-represented groups may receive inaccurate advice.
+Risk mitigation includes:
 
-**Lack of transparency:** Users may believe that automated recommendations are medical advice, even though they are only general fitness suggestions.
+* Collect only necessary data (data minimisation).
+* Obtain informed user consent.
+* Encrypt and securely store all personal data.
+* Use anonymisation or pseudonymisation where possible.
+* Restrict data access to authorised personnel.
+* Allow users to view, update, download, or delete their personal data.
 
-### 3. Cultural Relevance Risks
+## 3. Cultural Relevance
 
-The app must avoid a one-size-fits-all approach. Recommendations should consider language, disability, family responsibilities, financial limitations, religious or cultural practices, and access to safe running locations.
+The recommendation system should avoid a one-size-fits-all approach. It should consider different cultures, languages, disabilities, family responsibilities, religious practices, financial situations, and access to safe exercise environments.
 
-In New Zealand, Māori data should be managed with Māori participation, respect, shared benefit, and appropriate governance. The project should consider the Privacy Act 2020, Te Tiriti o Waitangi principles, and Māori data sovereignty.
+In New Zealand, the project should comply with the **Privacy Act 2020**, respect **Te Tiriti o Waitangi**, and recognise **Māori Data Sovereignty**, ensuring Māori data is governed with Māori participation and benefits Māori communities.
 
-### 4. Risk Management Controls
+## 4. Dataset Analysis
 
-1. Collect only the information required for analysis and recommendations.
-2. Obtain clear informed consent and explain the purpose of each data field.
-3. Make GPS, demographic, and health information optional where possible.
-4. Encrypt data, restrict staff access, and use pseudonymised user identifiers.
-5. Allow users to access, correct, download, and delete their information.
-6. Ask users about fitness level, goals, limitations, accessibility needs, and preferred exercise intensity.
-7. Provide beginner, moderate, and advanced recommendations instead of intensive advice for everyone.
-8. Explain why each recommendation was generated.
-9. Include safety warnings and advise users to consult a health professional when appropriate.
-10. Test model accuracy and recommendation outcomes across age, gender, ethnicity, disability, and fitness groups.
-11. Provide feedback, opt-out, and human review options.
-12. Regularly review the system for bias, unsafe recommendations, data breaches, model drift, and user complaints.
+Before building the recommendation model, the dataset should be analysed to identify:
 
-### 5. Fairness and Monitoring
+* Missing values across demographic groups.
+* Sampling bias and under-represented users.
+* Recommendation performance across age, gender, ethnicity, disability, and fitness levels.
+* Fairness metrics to ensure similar model performance for all user groups.
 
-Fairness should be evaluated before and after deployment. The project team should compare recommendation acceptance, completion rates, model errors, complaints, safety incidents, and user satisfaction across different demographic groups.
+If bias is detected, additional representative data should be collected and the model retrained before deployment.
 
-Large performance differences between groups should be investigated and corrected. A responsible staff member should be assigned to manage privacy, fairness, cultural consultation, and incident response.
+## 5. Data Collection Guidelines
 
-### 6. Conclusion
+| **Collect**             | **Do Not Collect**                   |
+| ----------------------- | ------------------------------------ |
+| Age range               | Bank details                         |
+| Fitness level           | Passwords                            |
+| Running history         | Irrelevant personal files            |
+| Health goals            | Unnecessary contacts                 |
+| Heart rate (optional)   | Data unrelated to fitness            |
+| GPS location (optional) | Personal information without consent |
 
-The Running App should provide supportive and personalised guidance rather than giving intensive exercise advice to every user. Privacy-by-design, informed consent, fairness testing, cultural consultation, transparency, human oversight, and continuous monitoring will reduce harm and improve user trust.
+## 6. Fairness and Ethical Guidelines
+
+The recommendation model should be tested regularly for fairness and accuracy across different demographic groups. Performance differences should be investigated and corrected. Users should receive clear explanations of recommendations, have the ability to opt out of personalised recommendations, and request human review when needed.
+
+## Conclusion
+
+An ethical Running App should provide safe, personalised, and culturally appropriate recommendations rather than giving intensive exercise advice to every user. By applying privacy-by-design, informed consent, fairness testing, cultural inclusion, continuous monitoring, and compliance with New Zealand ethical principles, the project can reduce risks, improve trust, and deliver responsible data-driven recommendations.
